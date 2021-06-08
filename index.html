@@ -24,6 +24,11 @@
    </head>
 
    <body>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
     <!-- Preloader Start -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
@@ -54,11 +59,8 @@
                                     <div class="main-menu f-right d-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="portfolio.html">Portfolio</a></li>
-                                                <li><a href="#">Page</a>
+                                                <li><a hidden href="portfolio.html">Portfolio</a></li>
+                                                <li><a hidden href="#">Page</a>
                                                     <ul class="submenu">
                                                         <li><a href="blog.html">Blog</a></li>
                                                         <li><a href="blog_details.html">Blog Details</a></li>
@@ -66,17 +68,17 @@
                                                         <li><a href="portfolio_details.html">Portfolio Details</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="contact.html"></a></li>
                                             </ul>
                                         </nav>
                                     </div>
                                     <div class="header-right-btn f-right d-none d-xl-block ml-20">
-                                        <a href="#" class="btn header-btn">Get Free Consultent</a>
+                                        <a href="#contact" class="btn header-btn">Scrivimi</a>
                                     </div>
                                 </div>
                             </div>
                             <!-- Mobile Menu -->
-                            <div class="col-12">
+                            <div class="col-12" hidden>
                                 <div class="mobile_menu d-block d-lg-none"></div>
                             </div>
                         </div>
@@ -99,10 +101,9 @@
                     </div>
                     <div class="col-lg-5 col-md-6">
                         <div class="about-me-caption">
-                            <h2>Per una Milano migliore</h2>
-                            <p class="pb-30">Quest'anno abbiamo sperimentato le disastrose conseguenze di una leadership disconnessa che non riesce a soddisfare i bisogni delle persone. La nostra comunità ha dimostrato che siamo più forti insieme.</p>
-                            <h5>Siamo più forti quando ci prendiamo cura l'uno dell'altro.</h5>
-                            <p>Stiamo meglio quando rifiutiamo il razzismo, il cinismo e l'odio.</p>
+                            <h2>Michele Albiani</h2>
+                            <p class="pb-30">Sono Michele Albiani, ho 33 anni e sono di Milano. Sono responsabile del Partito Democratico di Milano Metropolitana per le politiche LGBTQ+ e sono un’attivista per i diritti della mia comunità.</p>
+                            <h5>Stiamo meglio quando rifiutiamo il razzismo, il cinismo e l'odio.</h5>
                         </div>
                     </div>
                 </div>
@@ -116,15 +117,14 @@
                 <div class="single-slider slider-height d-flex align-items-center">
                     <div class="container">
                         <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-8">
+                            <div class="col-xl-6 col-lg-6 col-md-8 offset-lg-6 offset-md-4">
                                 <div class="hero__caption">
-                                    <span data-animation="fadeInUp" data-delay=".4s">Candidato alle comunali</span>
-                                    <h1 data-animation="fadeInUp" data-delay=".6s">Per una Milano migliore</h1>
-                                    <P data-animation="fadeInUp" data-delay=".8s">Quest'anno abbiamo sperimentato le disastrose conseguenze di una leadership disconnessa che non riesce a soddisfare i bisogni delle persone. La nostra comunità ha dimostrato che siamo più forti insieme. Siamo più forti quando ci prendiamo cura l'uno dell'altro. Stiamo meglio quando rifiutiamo il razzismo, il cinismo e l'odio.</P>
+                                    <h1 data-animation="fadeInUp" data-delay=".6s">Michele Albiani</h1>
+                                    <P style="font-size:25px" data-animation="fadeInUp" data-delay=".8s">Sono Michele Albiani, ho 33 anni e sono di Milano. Sono responsabile del Partito Democratico di Milano Metropolitana per le politiche LGBTQ+ e sono un’attivista per i diritti della mia comunità.</P>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
-                                        <a href="industries.html" class="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">Learn More</a>
-                                        <a href="industries.html" class="btn border-btn ml-15" data-animation="fadeInRight" data-delay="1.0s">Hire Me</a>
+                                        <a href="#contact" class="btn border-btn"  data-animation="fadeInLeft" data-delay=".8s">Scrivimi</a>
+                                        <a hidden href="industries.html" class="btn border-btn ml-15" data-animation="fadeInRight" data-delay="1.0s">Contattami</a>
                                     </div>
                                 </div>
                             </div>
@@ -135,22 +135,15 @@
         </div>
         <!-- slider Area End-->
         <!-- About Area start -->
-        <section class="about-area section-paddingt30">
+        <section hidden class="about-area section-paddingt30">
             <div class="container">
                 <div class="row ">
-                    <div class="col-lg-5">
-                        <div class="about-caption mb-50">
-                            <h3>Bio</h3>
-                            <p class="pera1">Sono Michele Albiani, ho 33 anni e sono di Milano. Sono responsabile del Partito Democratico di Milano Metropolitana per le politiche LGBTQ+ e sono un’attivista per i diritti della mia comunità.</p>
-                            <p>Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua. </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 offset-lg-1">
+                    <div class="col-lg-10 offset-lg-1">
                         <div class="about-caption2">
                             <h3>Hai una questione da sottopormi?</h3>
                             <p>Scrivimi qui</p>
                            <div class="send-cv">
-                                <a href="#" style="font-size:20px" >michelealbiani@gmail.com</a>
+                                <a href="#" style="font-size:20px" >michele@michelealbiani.it</a>
                                 <i class="ti-arrow-right" style="font-size:15px"></i>
                            </div>
                         </div>
@@ -160,12 +153,12 @@
         </section>
         <!-- About Area End -->
         <!-- Categories Area Start -->
-        <section class="categories-area section-padding3">
+        <section class="categories-area section-padding3 pb-lg-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <!-- Section Tittle -->
-                        <div class="section-tittle mb-70">
+                        <div class="section-tittle mb-70 text-center">
                             <h2>Continua a seguirmi su gli altri social networks!</h2>
                         </div>
                     </div>
@@ -177,7 +170,7 @@
                                 <span class="flaticon-pen"></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Instagram</a></h5>
+                                <h5><a href="https://www.instagram.com/michelealbiani">Instagram</a></h5>
 
                             </div>
                         </div>
@@ -188,7 +181,7 @@
                                 <span class="flaticon-speaker"></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Facebook</a></h5>
+                                <h5><a href="https://www.facebook.com/michelealbiani.mi">Facebook</a></h5>
 
                             </div>
                         </div>
@@ -199,7 +192,7 @@
                                 <span class="flaticon-portfolio"></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Twitter</a></h5>
+                                <h5><a href="https://twitter.com/michelealbiani">Twitter</a></h5>
 
                             </div>
                         </div>
@@ -208,8 +201,16 @@
             </div>
         </section>
         <!-- Categories Area End -->
+
+
+
+
+
+
+
+
         <!-- Services Area Start -->
-        <section class="services-area  services-padding">
+        <section hidden class="services-area  services-padding">
             <div class="container">
                <div class="project-heading mb-35">
                     <div class="row align-items-end">
@@ -480,8 +481,13 @@
             </div>
         </section>
         <!-- Services Area End -->
+
+
+
+
+
         <!-- Want To Work Start -->
-        <section class="wantToWork-area w-padding2">
+        <section hidden class="wantToWork-area w-padding2">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-xl-6 col-lg-8 col-md-8">
@@ -496,6 +502,10 @@
             </div>
         </section>
         <!-- Want To Work End -->
+
+
+
+
 
         <!-- client-comments -->
         <section hidden class="client-comments section-paddingt30">
@@ -636,18 +646,34 @@
         <!-- Contact Info End -->
 
     </main>
-    <footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer id="contact">
         <!-- Footer Start-->
         <div class="footer-area">
             <div class="container">
                <div class="footer-top footer-padding">
                    <div class="row justify-content-center">
                        <div class="col-lg-6">
-                            <div class="footer-top-cap text-center">
-                                <img style="width:200px" src="assets/img/logo/logo_mitch_w.png" alt="">
-                                <span><a href="#">michelealbiani@gmail.com</a></span>
-                                <p>221B Baker Street, Post office Box 353 </p>
-                                <p>Park Road, USA - 215431</p>
+                            <div class="footer-top-cap text-center pt-5 pb-5">
+                                <img class="pt-5" style="width:200px" src="assets/img/logo/logo_mitch_w.png" alt="">
+                                <p>Puoi scrivermi una mail su questo indirizzo</p>
+                                <span><a href="mailto:michele@michelealbiani.it">michele@michelealbiani.it</a></span>
+                                <p hidden>Park Road, USA - 215431</p>
                             </div>
                        </div>
                    </div>
@@ -664,11 +690,10 @@
                         <div class="col-xl-3 col-lg-4">
                             <!-- Footer Social -->
                             <div class="footer-social f-right">
-                                <a>Stay Connected</a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fas fa-globe"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a>Restiamo Connessi</a>
+                                <a href="https://www.instagram.com/michelealbiani"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/michelealbiani.mi"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/michelealbiani"><i class="fab fa-twitter"></i></a>
                             </div>
                         </div>
                     </div>
