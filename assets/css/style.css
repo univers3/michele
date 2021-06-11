@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900|Rufina:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,900&display=swap");
 .white-bg {
 	background: #ffffff
 }
@@ -48,7 +49,7 @@
 	color: #3E89BC !important;
 	display: inline-block;
 	padding: 18px 44px;
-	font-family: "Rufina", serif;
+	font-family: "Raleway", serif;
 	font-size: 14px;
 	font-weight: 400;
 	border: 0;
@@ -127,7 +128,7 @@
 }
 
 body {
-	font-family: "Rubik", sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-weight: normal;
 	font-style: normal
 }
@@ -138,7 +139,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Rufina", serif;
+	font-family: "Raleway", serif;
 	color: #000a2d;
 	margin-top: 0px;
 	font-style: normal;
@@ -147,7 +148,7 @@ h6 {
 }
 
 p {
-	font-family: "Rubik", sans-serif;
+	font-family: "Raleway", sans-serif;
 	color: #10285d;
 	font-size: 16px;
 	line-height: 30px;
@@ -396,7 +397,7 @@ hr {
 	background: #3E89BC;
 	padding: 27px 44px;
 	text-transform: capitalize;
-	font-family: "Rubik", sans-serif;
+	font-family: "Raleway", sans-serif;
 	color: #fff;
 	cursor: pointer;
 	display: inline-block;
@@ -2520,7 +2521,7 @@ hr {
 	text-transform: capitalize;
 	position: relative;
 	margin: 0 23px;
-	font-family: "Rubik", sans-serif
+	font-family: "Raleway", sans-serif
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3341,6 +3342,16 @@ hr {
 	border-radius: 6px
 }
 
+#rosso::before {
+	background: #ef484f;
+}
+#verde::before {
+	background: #a0cf5e;
+}
+#viola::before {
+	background: #8056a4;
+}
+
 .categories-area .single-cat .cat-icon span {
 	color: #3E89BC;
 	font-size: 50px;
@@ -3624,7 +3635,7 @@ hr {
 }
 
 .blog_area a {
-	color: "Rufina", serif !important;
+	color: "Raleway", serif !important;
 	text-decoration: none;
 	transition: .4s
 }
@@ -4996,7 +5007,7 @@ hr {
 	color: #fff;
 	font-weight: 900;
 	margin-bottom: 0;
-	font-family: "Rufina", serif;
+	font-family: "Raleway", serif;
 	text-transform: capitalize
 }
 
@@ -5055,7 +5066,7 @@ hr {
 	cursor: pointer;
 	display: block;
 	float: left;
-	font-family: "Rubik", sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-weight: normal;
 	width: 100% !important;
 	line-height: 50px;
