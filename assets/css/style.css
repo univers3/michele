@@ -216,6 +216,10 @@ a:hover {
 	color: #fff
 }
 
+.coll:hover {
+	color: #3E89BC
+}
+
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
