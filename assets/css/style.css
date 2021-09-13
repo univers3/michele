@@ -425,7 +425,7 @@ hr {
 	top: 0;
 	width: 101%;
 	height: 101%;
-	background: #f29a47;
+	background: #A04F00;
 	z-index: 1;
 	border-radius: 5px;
 	transition: transform 0.5s;
@@ -2644,7 +2644,7 @@ hr {
 }
 
 .slider-height {
-	background-image: url(../img/hero/1.png);
+	background-image: url(../img/hero/11.png);
 	min-height: 1000px;
 	background-repeat: no-repeat;
 	background-position: center center;
